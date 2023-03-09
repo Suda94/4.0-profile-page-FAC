@@ -163,8 +163,6 @@ z-index: 80;
 
 }
 
-
-
 .container {
     width: 100%;
     height: 100vh;
@@ -249,7 +247,7 @@ z-index: 80;
   
   
   /* module */
-  /* The Modal (background) */
+  /* The Modal (images) */
   
   .modal {
     display: none; /* Hidden by default */
