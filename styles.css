@@ -153,6 +153,13 @@ z-index: 80;
 
 }
 
+
+.profile-image{
+  max-width: 20%;
+  float:right;
+  border: solid white 1rem;
+}
+
 /* project gallery css */
  
 
