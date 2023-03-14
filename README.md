@@ -12,6 +12,6 @@
 - [ ] To demonstrate your learning your site must have at least one example of each of these:
 
 Semantic HTML5 elements
-- [ ] CSS grid or flexbox layout (or both)
+- [x] CSS grid or flexbox layout (or both)
 - [x] DOM event listeners for user interaction (e.g. click, keydown)
 - [ ] DOM updates in response to user interaction (e.g. showing/hiding an element, changing text or styles)
