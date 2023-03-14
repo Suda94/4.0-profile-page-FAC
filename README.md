@@ -7,7 +7,7 @@
 - [ ] Tells us about who you are
 - [ ] Tells us about why you are applying for the programme
 - [x] Shows your progress through the application projects (e.g. links to your deployed projects)
-- [x] Hosted on GitHub Pages
+- [ ] Hosted on GitHub Pages
 - [ ] Links back to the GitHub repository that contains the code for your site
 - [ ] To demonstrate your learning your site must have at least one example of each of these:
 
