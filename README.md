@@ -4,7 +4,7 @@
 
 - [x] All code is written by you.
 - [x] No external libraries (e.g. no Bootstrap, React or GitHub Pages themes, but external fonts/icons are fine)
-- [ ] Tells us about who you are
+- [x] Tells us about who you are
 - [ ] Tells us about why you are applying for the programme
 - [x] Shows your progress through the application projects (e.g. links to your deployed projects)
 - [ ] Hosted on GitHub Pages
