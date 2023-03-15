@@ -1,5 +1,4 @@
 
-
 /* add flexwrap on the project images and complete restof the checklists. */
 @import url('http://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
 
@@ -123,7 +122,7 @@ font-size: 7.5vw;
 z-index: 80;
 }
 
-#btn{
+#butt{
     text-decoration: none;
     display: inline-block;
     padding: 8px 30px;
@@ -154,7 +153,7 @@ z-index: 80;
 }
 
 
-.profile-image{
+.profile{
   max-width: 20%;
   float:right;
   border: solid white 0.5rem;
@@ -164,223 +163,248 @@ z-index: 80;
 /* project gallery css */
  
 
-.projects{
-  font-size: 2.0em;
-  color: #fff;
-  align-items: start;
-  margin: 10rem;
 
+/* .container {
+  /* background: #042525;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+
+
+
+.boxwindow{
+  display: flex;
+  flex-wrap: wrap;
+  background: #13312b;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.container {
-    
-  }
+.image-item {
+  width: 150px;
+  height: 400px;
+  background-image: url(/img2/Hobby.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: all 0.4s;
+  border-radius: 20px;
+  position: relative;
+  cursor: pointer;
+  margin: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-item p {
+  width: 150px;
+  height: 400px;
+  display: none;
+}
+
+.image-item:hover {
+  width: 300px;
+  height: 400px;
+}
+.image-item:hover h2 {
+  position: absolute;
+  bottom: 2px;
+  left: 50%;
+  opacity: 1;
+  z-index: 2;
+  transition: all 0.4s;
+  transform: translate(-50%, -50%);
+}
+.image-item:hover::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  border-radius: 20px;
+  transition: all 0.4s;
+  background-image: linear-gradient(0deg, #e65b00, rgb(255 255 255 /0%));
+}
   
-  .images {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #183d3d;
-    color: #fff;
-    display: flex;
-  }
+.image-item:nth-child(1) {
+  background-image: url(/img2/Hobby.png);
+}
+.image-item:nth-child(2) {
+  background-image: url(/img2/Gallery.png);
+}
+.image-item:nth-child(3) {
+  background-image: url(./images/profile.jpg);
+}
+.image-item:nth-child(4) {
+  background-image: url(./images/Instagram_icon.png);
+}
+
+h3 {
+  opacity: 0;
+  color: rgb(51, 143, 143);
+  position: absolute;
+  bottom: 2px;
+  left: 50%;
+  font-size: 1.1rem;
+  transition: all 0.4s;
+  font-family: sans-serif;
+  transform: translate(-50%, -50%);
+}
+
+/* button */
+button {
+  padding: 10px 20px;
+  border: 2px solid #16130d;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #06295f;
+  /* background-color: transparent; */
+  transition: all 0.3s ease-in-out;
+  margin-left: auto;
+  margin-right: auto;
+}
+button:hover {
+  color: #656f8a;
+  background-color: #161006;
+}
+
+
+/* module */
+/* The Modal (background) */
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  height: 200px;
   
+}
+
+/* The Close Button */
+/* hobby button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Movie Data button */
+.close2 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* portfolio button */
+
+.close3 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close3:hover,
+.close3:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Game button */
+.close4 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close4:hover,
+.close4:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+/* adding note *
+- change the max width of the header so it fit the mobile screen.
+
+
+
+/* For screens smaller than 768px  for the images boxes*/
+
+@media (max-width: 768px) {
   .image-item {
-    width: 150px;
-    height: 400px;
-    background-image: url(./img2/Instagram_icon.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    transition: all 0.4s;
-    border-radius: 20px;
-    position: relative;
-    cursor: pointer;
-    margin: 1rem;
-  }
-  
-  .image-item p {
-    width: 150px;
-    height: 400px;
-    display: none;
-  }
-  
-  .image-item:hover {
-    width: 300px;
-    height: 400px;
-  }
-  .image-item:hover h3 {
-    position: absolute;
-    bottom: 2px;
-    left: 50%;
-    opacity: 1;
-    z-index: 2;
-    transition: all 0.4s;
-    transform: translate(-50%, -50%);
-  }
-  .image-item:hover::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
     width: 100%;
-    height: 120px;
-    border-radius: 20px;
-    transition: all 0.4s;
-    background-image: linear-gradient(0deg, #e65b00, rgb(255 255 255 /0%));
-  }
-  .image-item:nth-child(1) {
-    background-image: url(./img2/Hobby-page.jpg);
-  }
-  .image-item:nth-child(2) {
-    background-image: url(./img2/Instagram_icon.png);
-  }
-  .image-item:nth-child(3) {
-    background-image: url(./img2/profile.jpg);
-  }
-  .image-item:nth-child(4) {
-    background-image: url(./img2/profile.jpg);
-  }
-  
-  h3 {
-    opacity: 0;
-    color: aqua;
-    position: absolute;
-    bottom: 2px;
-    left: 50%;
-    font-size: 1.1rem;
-    transition: all 0.4s;
-    font-family: sans-serif;
-    transform: translate(-50%, -50%);
-  }
-  
-  
-  /* module */
-  /* The Modal (images) */
-  
-  .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
-  
-  /* Modal Content */
-  .modal-content {
-    background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
     height: 200px;
   }
 
-    /*Descripton button css */
-    button {
-        padding: 10px 20px;
-        border: none;
-        border-radius: 10px;
-        cursor: pointer;
-        font-size: 18px;
-        color: #FFFFFF;
-        background: linear-gradient(to bottom, #FF9F00 0%, #F72585 100%);
-        position: relative;
-        transform-style: preserve-3d;
-        perspective: 1000px;
-        transition: all 0.3s ease-in-out;
-      }
-      button::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        transform: translateZ(-25px);
-        background: linear-gradient(to bottom, #F72585 0%, #FF9F00 100%);
-        border-radius: 10px;
-        opacity: 0;
-        transition: all 0.3s ease-in-out;
-      }
-      button:hover {
-        transform: translateZ(25px);
-      }
-      button:hover::before {
-        opacity: 1;
-      }
+  .image-item:hover {
+    width: 100%;
+    height: 200px;
+  }
 
+  .image-item:hover::after {
+    height: 60px;
+  }
 
-  
-  /* The Close Button */
-  /* hobby button */
-  .close {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+  .image-item p {
+    display: block;
+    text-align: center;
+    margin-top: 0.5rem;
   }
-  
-  .close:hover,
-  .close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
+
+  h3 {
+    font-size: 1rem;
   }
-  
-  /* Movie Data button */
-  .close2 {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+
+  button {
+    margin-top: 1rem;
   }
-  
-  .close2:hover,
-  .close2:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  /* portfolio button */
-  
-  .close3 {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close3:hover,
-  .close3:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  /* Game button */
-  .close4 {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close4:hover,
-  .close4:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-  }
+}
+
 
   /* footer */
  

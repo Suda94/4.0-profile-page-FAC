@@ -4,7 +4,7 @@ let cloud = document.getElementById('clouds');
 let sun = document.getElementById('sun');
 let mountain = document.getElementById('back');
 let text = document.getElementById('text');
-let button = document.getElementById('btn');
+let button = document.getElementById('butt');
 let cloud_front = document.getElementById('cloud2');
 
 // event listener for clicks in the page 
@@ -18,6 +18,8 @@ window.addEventListener('scroll', function(){
 })
 
 
+
+//animation for the project gallery 
 // Get the modal hobby page 
 let modal = document.getElementById("myModal");
 
