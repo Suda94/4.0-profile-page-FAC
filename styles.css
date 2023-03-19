@@ -233,16 +233,16 @@ z-index: 80;
 }
   
 .image-item:nth-child(1) {
-  background-image: url(/img2/Hobby.png);
+  background-image: url(Hobby-page.jpg);
 }
 .image-item:nth-child(2) {
-  background-image: url(/img2/Gallery.png);
+  background-image: url(Gallery.png);
 }
 .image-item:nth-child(3) {
-  background-image: url(./images/profile.jpg);
+  background-image: url(movie-data.png);
 }
 .image-item:nth-child(4) {
-  background-image: url(./images/Instagram_icon.png);
+  background-image: url(Game.png);
 }
 
 h3 {
