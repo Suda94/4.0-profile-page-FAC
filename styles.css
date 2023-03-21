@@ -179,8 +179,6 @@ z-index: 80;
   flex-wrap: wrap;
   background: #13312b;
   width: 100%;
-  height: 100vh;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -378,7 +376,7 @@ button:hover {
 @media (max-width: 768px) {
   .image-item {
     width: 100%;
-    height: 200px;
+    /* height: 200px; */
   }
 
   .image-item:hover {
