@@ -5,7 +5,7 @@
 - [x] All code is written by you.
 - [x] No external libraries (e.g. no Bootstrap, React or GitHub Pages themes, but external fonts/icons are fine)
 - [x] Tells us about who you are
-- [ ] Tells us about why you are applying for the programme
+- [x] Tells us about why you are applying for the programme
 - [x] Shows your progress through the application projects (e.g. links to your deployed projects)
 - [x] Hosted on GitHub Pages
 - [x] Links back to the GitHub repository that contains the code for your site
@@ -14,4 +14,4 @@
 Semantic HTML5 elements
 - [x] CSS grid or flexbox layout (or both)
 - [x] DOM event listeners for user interaction (e.g. click, keydown)
-- [ ] DOM updates in response to user interaction (e.g. showing/hiding an element, changing text or styles)
+- [x] DOM updates in response to user interaction (e.g. showing/hiding an element, changing text or styles)
