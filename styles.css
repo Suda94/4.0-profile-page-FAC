@@ -432,12 +432,13 @@ button:hover {
     margin-bottom: 10px;
   }
 
-  .footer-section i {
+  .footer-section a {
    padding-left: 1rem;
    font-size: 2rem;
+   cursor: pointer;
   }
   
-  i:hover {
+  a:hover {
     color: #007bff;
   }
 
