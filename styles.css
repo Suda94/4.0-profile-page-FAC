@@ -237,10 +237,10 @@ z-index: 80;
   background-image: url(Hobby-page.jpg);
 }
 .image-item:nth-child(2) {
-  background-image: url(Gallery.png);
+  background-image: url(movie-data.png);
 }
 .image-item:nth-child(3) {
-  background-image: url(movie-data.png);
+  background-image: url(Gallery.png);
 }
 .image-item:nth-child(4) {
   background-image: url(Game.png);
